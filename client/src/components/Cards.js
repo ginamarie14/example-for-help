@@ -8,7 +8,7 @@ import Card from 'react-bootstrap/Card';
 //import WoYellowTop from '../assets/img/shirts/adidas-w-yellow-top.webp';
 
 
-export const Cards = ({product}) => {
+export const Cards = ({image, name}) => {
   const [activeLink, setActiveLink] = useState("all");
   const [scrolled, setScrolled] = useState(false);
 
@@ -18,9 +18,9 @@ export const Cards = ({product}) => {
         <Row>
             <Col sm>
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={product.image} />
+                    <Card.Img variant="top" src={image} />
                     <Card.Body>
-                        <Card.Title>{product.name}</Card.Title>
+                        <Card.Title>{name}</Card.Title>
                         <Button variant="primary">Check me out 👀</Button>
                     </Card.Body>
                 </Card>
