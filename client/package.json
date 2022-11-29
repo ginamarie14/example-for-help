@@ -2,6 +2,7 @@
   "name": "daydream-athletic",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:3005",
   "dependencies": {
     "@apollo/client": "^3.7.1",
     "@testing-library/jest-dom": "^5.16.5",
@@ -11,6 +12,7 @@
     "apollo-server": "^3.11.1",
     "bootstrap": "^5.2.2",
     "bulma": "^0.9.4",
+    "cdbreact": "^1.5.3",
     "graphql": "^16.6.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",

@@ -19,21 +19,16 @@ export const QUERY_PRODUCT = gql`
 `;
 
 export const QUERY_ALL_PRODUCTS = gql`
-  {
-    products {
-      _id
-      name
-      image
-      department {
-        _id
+    query products {
+      products{
+        name
+        image
+        color
+        price
+        description
+        price
       }
-      category
-      color
-      price
-      description
-      quantity
     }
-  }
 `;
 
 export const QUERY_DEPARTMENTS = gql`

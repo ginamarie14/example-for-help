@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5cf818b2.css",
-    "main.js": "/static/js/main.e3dabdf9.js",
+    "main.js": "/static/js/main.96227fe4.js",
     "static/js/787.3c78bae6.chunk.js": "/static/js/787.3c78bae6.chunk.js",
     "static/media/ball.png": "/static/media/ball.746d4bd0d610e196695f.png",
     "static/media/fifabanner2.jpg": "/static/media/fifabanner2.f02e422e0e058ab633b2.jpg",
@@ -26,11 +26,11 @@
     "static/media/iconmonstr-shopping-bag-4.svg": "/static/media/iconmonstr-shopping-bag-4.39427969dc691bd73248eaf0be1fbd3d.svg",
     "static/media/arrow.svg": "/static/media/arrow.c2c8134e6fd94f697299c163562ce908.svg",
     "main.5cf818b2.css.map": "/static/css/main.5cf818b2.css.map",
-    "main.e3dabdf9.js.map": "/static/js/main.e3dabdf9.js.map",
+    "main.96227fe4.js.map": "/static/js/main.96227fe4.js.map",
     "787.3c78bae6.chunk.js.map": "/static/js/787.3c78bae6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5cf818b2.css",
-    "static/js/main.e3dabdf9.js"
+    "static/js/main.96227fe4.js"
   ]
 }
